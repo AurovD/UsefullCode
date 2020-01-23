@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    color: #092906;
+    font: 15px Verdana, Roboto. sans-serif;
+}
+h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+/*    color: #092906;*/
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.block {
+    min-height: 200px;
+    padding: 30px;
+}
+.green {
+    background-color: #23a419;
+}
+.extra-light {
+    background-color: #dedede;
+}
+.light     {
+    background-color: #ccc;
+}
+.screen {
+    display: flex;
+    flex-wrap: wrap;
+}
+.screens-inner {
+    width: 50%;
+    height: 120px;
+/*    outline: 1px solid magenta;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.screen-inner h3 {
+    padding: 0 10px;
+    width: calc(100% - 170px);
+}
+.screens-inner p {
+    padding: 0 10px;
+    width: calc(100% - 170px);
+}
+.mb15 {
+    margin-bottom: 15px;
+}
+.screen-image {
+    width: 150px;
+    height: 100px;
+    background-color: #23a419;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+}
+.reviews-inner {
+/*    outline: 1px solid magenta;*/
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.reviews-photo {
+    width: 70px;
+    height: 70px;
+    background-color: #23a419;
+    border-radius: 50%;
+}
+.reviews-inner blockquote {
+    margin: 0 15px 0 30px;
+    width: calc(100% - 115px);
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #23a419;
+    border-radius: 10px;
+    font-style: italic;
+    text-align: justify;
+    position: relative;
+}
+.reviews-inner blockquote:before {
+    content: "";
+    background: #23a419;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: px;
+    bottom: 50px;
+    left: -14px;
+    z-index: 0;
+/*    traslate(100px, 200px) сдвиг по оси x and y 
+    scale(-1, 1) маштабирование
+    skew(20deg, 0 deg) искажение
+    rotate(20)*/
+    transform: rotate(45deg);
+    
+}
+.reviews-inner blockquote p {
+    z-index: 10;
+    position: relative;
+}
+.reviews-author {
+    color: #cacaca;
+    margin-top: 10px;
+}
+.pluses ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.pluses li {
+    width: 50%;
+    padding: 0 15px 0 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+.pluses li::before {
+    content: url(bulet.svg);
+    width: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
