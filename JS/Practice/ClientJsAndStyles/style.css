@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+/*    w700+m0-a*/
+    margin: 0 auto;
+    width: 700px;
+}
+header, footer {
+    background: #666;
+    min-height: 50px;        
+}
+header {
+    padding: 20px;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    background: #5f7;
+    box-shadow: 20px 15px #c5f;
+}
+.menu {
+    list-style-type: none;
+    margin: 25px 0 0;
+    padding: 0;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+section {
+    padding: 20px;
+}
+section {
+}
+
