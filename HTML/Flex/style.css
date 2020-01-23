@@ -1,0 +1,44 @@
+/*
+flex-direction - напрвеление оси row - строка, row-reverse, column, column-reverse
+
+justify-content - расположение элементов на оси center, flex-end/start, space around/between
+
+align-items: - расположие по поперечной оси center stretch - растяжение, baseline,
+
+flex-wrap: - перенос текста wrap-reverse, wrap, no-wrap
+
+
+align-content: - распологает по поперечной оси строки flex-wrap. значения те же что и у justify
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.flex-block {
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    padding: 0;
+    background-color: rgba(255, 100, 0, .2); 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.flex-item {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #000;
+    font: 30px / 50px sans-serif;
+/*    text-align: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
