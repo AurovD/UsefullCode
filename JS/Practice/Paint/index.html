@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="desk">
+        <div class="panel">
+           <div class="panel-box">
+               <h2>Кисть</h2>
+               <div class="brush">
+                   <button class="sqBtn"></button>
+                   <button class="cirBtn"></button>
+               </div>
+               <div class="setup">
+                   <div class="square active">
+                       <form action="" method="get">
+                           <label>
+                               Width: 
+                               <input type="text" value="30px" id="sqWidth">
+                           </label>
+                           <label>
+                               Height: 
+                               <input type="text" value="30px" id="sqHeight">
+                           </label>
+                       </form>
+                   </div>
+                   <div class="circle">
+                       <label>
+                               Radius: 
+                               <input type="text" value="30px" id="cirRad">
+                           </label>
+                   </div>
+               </div>
+               <div class="colors">
+                       <div class="white"></div>
+                       <div class="red"></div>
+                       <div class="black"></div>
+                       <div class="green"></div>
+                       <div class="grey"></div>
+                       <div class="orange"></div>
+                       <div class="pink"></div>
+                       <div class="yellow"></div>
+                       <div class="violet"></div>
+               </div>
+           </div>
+        </div>
+        <div class="board" name="board"></div>
+    </div>
+</body>
+</html>

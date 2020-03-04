@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.desk {
+    color: #ab809f;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(83, 355, 83);
+    display: flex;
+    flex-wrap: wrap;
+/*    border: 5px solid rgb(40, 40, 40);*/
+}
+.panel {
+    width: 10vw;
+    height: 100vh;
+    background-color: rgb(83, 83, 83);
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.board {
+    width: 90vw;
+    height: 100vh;
+    background-color: rgb(70, 70, 70);
+    border: 10px solid rgb(40, 40, 40);
+    box-sizing: border-box;
+}
+.panel-box {
+    width: 70%;
+    height: 80%;
+    background-color: rgb(70, 70, 70);
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 3px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 4px rgba(0,0,0,.4);
+}
+.brush {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+}
+.brush button {
+    width: 25px;
+    height: 25px;
+    background-color: dimgrey;
+    border: none;
+    box-shadow: 5px 3px 4px rgba(0,0,0,.4);
+}
+.brush button:last-child {
+    border-radius: 50%;
+}
+.square {
+    display: none;
+}
+.square.active {
+    display: block;
+}
+.circle {
+    display: none;
+}
+.circle.active {
+    display: block;
+}
+.setup {
+    margin: 10px auto 10px auto;
+    width: 80%;
+/*    min-height: 50px;*/
+    background-color: rgb(83, 83, 83);
+    padding: 10px 0;
+    transition: max-height 30ms ease-out ;
+}
+input {
+    width: 30px;
+    background-color: rgb(100, 100, 100);
+    border: none;
+}
+.colors {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90px;
+}
+.colors div {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+}
+.white {
+    background: #fff;
+    transform: translate(-5px, -5px);
+
+}
+.red {
+    background: #FF0000;
+    transform: translate(-5px, -5px);
+}
+
+.black {
+    background: #000;
+    transform: translate(-5px, -5px);
+}
+
+.green {
+    background: #00FF00;
+    transform: translate(-5px, -5px);
+}
+
+.grey {
+    background: #999;
+    transform: translate(-5px, -5px);
+}
+
+.orange {
+    background: #f80;
+    transform: translate(-5px, -5px);
+}
+
+.pink {
+    background: pink;
+    transform: translate(-5px, -5px);
+
+}
+.yellow {
+    background: yellow;
+    transform: translate(-5px, -5px);
+
+}
+.violet {
+    background: violet;
+    transform: translate(-5px, -5px);
+
+}
+
+
+
