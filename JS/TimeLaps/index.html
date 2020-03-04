@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="plan">
+        <div class="today">
+            <div class="text">
+                <h2>Today Study Plan</h2>
+                <h5>
+                    <span data-type="day_of_week"></span>
+                    at 
+                    <span data-type="time"></span>
+                </h5>
+            </div>
+            <div class="date">
+                <h1 class="date_day" data-type="day"></h1>
+                <div class="date_inner">
+                    <h3 data-type="month"></h3>
+                    <h3 data-type="year"></h3>
+                </div>
+            </div>
+        </div>
+        <div class="exercises" data-type="cards"></div>
+        <div class="timeline" data-type="line">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
