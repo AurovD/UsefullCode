@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.lightbox {
+    width: 50vw;
+    height: 50vh;
+    background: #333;
+    /* position: fixed;
+    top: 2.5vh;
+    left: 2.5vw; */
+    position: relative;
+    bottom: 50vh;
+    margin: auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.active {
+    overflow: hidden;
+}
+
+.active .lightbox {
+    display: block;
+    display: flex;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 400px;
+    margin: 30px auto;
+}
+.item             {
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    background: no-repeat center / contain;
+}
+.lightbox .item {
+    border: none;
+    /* max-height: 100%; */
+    max-width: 100%;
+    /* min-width: 600px;
+    max-height: 600px; */
+}
+.one {
+    background-image: url(imaage/one.png);
+}
+.two {
+    background-image: url(imaage/7.png);
+}
+.three {
+    background-image: url(imaage/three.png);
+}
+.four {
+    background-image: url(imaage/6c648d329a83.png);
+}
+.five {
+    background-image: url(imaage/los.png);
+}
+.six {
+    background-image: url(imaage/six.png);
+}
+.seven {
+    background-image: url(imaage/nusha.png);
+}
+.eight {
+    background-image: url(imaage/barash.png);
+}
+ /* Next & previous buttons */
+ .prev {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   right: 900px;
+   width: auto;
+   padding: 16px;
+   margin-top: -50px;
+   color: red;
+   font-weight: bold;
+   font-size: 20px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+   -webkit-user-select: none;
+   background: #333;
+ }
+ .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 900px;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background: #333;
+  }
+
+  .next:hover {
+      background: #000;
+  }
+  .prev:hover {
+    background: #000;
+}
+ 
+
+
+
+
