@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: cornflowerblue;
+    font-size: 1rem;
+}
+.wrapper {
+    display: flex;
+    width: 505px;
+    height: 200px;
+    background-color: orange;
+    margin: calc(50vh - 110px)auto;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+h1 {
+    position: absolute;
+    font: 3rem sans-serif;
+    font-style: italic;
+    transform: rotate(-40deg);
+    color: brown;
+    top: -60px;
+}
+.text {
+    width: 100px;
+    height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: darkmagenta;
+    font-size: 1.8rem;
+    line-height: 50px;
+    color: #fff;
+}
+.time {
+    width: 100px;
+    height: 100px;
+    margin-right: 1px;
+    background-color: peachpuff;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 100px;
+    box-sizing: border-box;
+}
+
+
+
